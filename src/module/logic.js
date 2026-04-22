@@ -37,7 +37,7 @@ export class Polyglot {
 		Hooks.on("renderStorySheet", PolyglotHooks.renderJournalSheet);
 		Hooks.on("renderJournalEntryPageSheet", PolyglotHooks.renderDocumentSheet);
 		Hooks.on("getProseMirrorMenuDropDowns", PolyglotHooks.getProseMirrorMenuDropDowns);
-		Polyglot.handleTinyMCE();
+		//Polyglot.handleTinyMCE();
 
 		libWrapper.register(
 			"polyglot",
