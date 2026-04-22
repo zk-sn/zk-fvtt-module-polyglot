@@ -10,7 +10,7 @@ import {
 import { registerTours } from "./tour.js";
 
 Hooks.once("init", () => {
-	CONFIG.TinyMCE.content_css.push("/modules/polyglot/styles/polyglot.css");
+	//CONFIG.TinyMCE.content_css.push("/modules/polyglot/styles/polyglot.css");
 	registerSettings();
 	const api = new PolyglotAPI();
 	api.init();
